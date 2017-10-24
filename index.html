@@ -2,8 +2,19 @@
   <body>
 hello world!
   
-  <script>
-    alert("Hi there!");
-  </script>
+ 
+<script src="https://www.gstatic.com/firebasejs/4.6.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAxhALk7dtlajkhTlBZY8dXgq9XAGyYs1k",
+    authDomain: "blog-d5d30.firebaseapp.com",
+    databaseURL: "https://blog-d5d30.firebaseio.com",
+    projectId: "blog-d5d30",
+    storageBucket: "blog-d5d30.appspot.com",
+    messagingSenderId: "369682429105"
+  };
+  firebase.initializeApp(config);
+</script>
   </body>
 </html>
